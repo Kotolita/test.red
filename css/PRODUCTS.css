@@ -1,0 +1,65 @@
+body {background-color: #a6a6a6;}
+header {
+	width: 50%;
+	margin-top: 0%;
+    margin-left: 30%;
+ }
+
+.photo {
+
+margin-top: 0%;
+margin-left: 10%;
+}
+.desc {
+	background-color : lightblue;
+	font-family: cursive;
+font-style: italic;
+font-size: 50px;
+margin-left: 0%;
+margin-right:4%;
+color: white;
+
+}
+
+.married {width: 25%;}
+.face {
+	width: 40%;
+ }
+ .effect {width: 30%;
+ 	height: 348px;}
+ .black {
+ 	width: 1150px;
+ }
+.bouquet {
+	width: 50%;
+}
+
+.salleP {
+	width: 20%;
+	height: 169px;
+}
+.tendances
+{
+	width: 50%;
+	
+}
+.marriée {
+	width: 100%;
+}
+.marriée2 {
+	width: 19%;
+}
+.salleM {
+	width: 20%;
+        }
+.salleR {
+	width: 20%;
+}
+.jardin {
+	
+	width: 250px;
+}
+.jardin2 {
+	width:95%;
+}
+footer	{padding-left: 500px;}

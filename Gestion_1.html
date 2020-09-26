@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+<style type="text/css">
+
+body { 
+	margin-left: 20px; margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: dodgerblue;
+}
+.fa  { color:white; 
+font-size: 50px;}
+	
+.contenu { 
+	margin-top: 30px;
+	 }
+div.form {
+	box-shadow: 10px 10px 5px grey;
+border-radius: 25px;
+
+}
+
+div.center {
+	box-shadow: 10px 10px 5px grey;
+border-radius: 25px;
+margin-bottom: 20px;
+margin-left: 5px;
+
+}
+
+form { margin-bottom: 50px;
+margin-left: 10px; }
+
+p {
+	font-family: cursive 
+	}
+.container-fluid  {
+	font-family: "Verdana", serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: DodgerBlue ;
+border-radius: 10px;
+font-weight: bold;
+color: lightgrey;
+}
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #e74c3c;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #e74c3c;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+ 
+li {
+  list-style: none;
+}
+</style>
+<body>
+
+
+<div class="row">
+
+	<div class="col-md-12 container-fluid" >
+
+GESTION DES ARTICLES
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12" >
+    	<div id="navigation-bar">
+
+      <ul>
+      	<li><a href="#"><i class="fa fa-home"></i><span>Gestion de l’approvisionnement</span></a></li>
+      	<li><a href="#"><i class="fa fa-product-hunt" aria-hidden="true"></i><span>Gestion du stock </span></a></li>
+      	<li><a href="#"><i class="fa fa-user"></i><span>Gestion du caisse</span></a></li>
+      	<li><a href="#"><i class="fa fa-book"></i><span>Gestion des charges</span></a></li>
+      	<li><a href="#"><i class="fa fa-rss"></i> <span>Action</span></a></li>
+     </ul>
+
+ 		</div>
+	</div>
+</div>
+<!-- aside BEGIN-->
+
+
+
+
+
+
+
+
+
+<div class="row">
+	<div class="col-md-2">
+		<form>
+		<p>
+		  <select id="country" name="country">
+		  <option value="au">Référence produit</option>
+		  <option value="ca">Nom du produit</option>
+		  <option value="usa">Quantité</option>
+					<label>Référence produit</label>
+					<input type="text" name="" class="form-control">
+					<label>Nom du produit</label>
+					<input type="text" name="" class="form-control">
+					<label>Quantité</label>
+					<input type="number" name="" class="form-control">
+					<label>Prix</label>
+					<input type="number" name="" class="form-control">
+					<label>Date</label>
+					<input type="date" name="" class="form-control">
+					<button type="button" class="btn btn-primary">Soumettre</button>
+				</p>
+		</form>
+	</div>
+	<div class="col-md-10">
+		<table class="table-danger" >
+		<tr>
+	<h2><th>ID</th></h2>
+    <th>Référence produit</th>
+    <th>Nom du produit</th>
+    <th>Prix</th>
+    <th>Quantité</th>
+    <th>Date</th>
+    <th>Actions</th>
+       </tr>
+
+      	<tr>  		
+    <td>3</td>
+    <td>Référence produit</td>
+    <td>Nom du produit</td>
+    <td>Prix</td>
+    <td>Quantité</td>
+    <td>Date</td>
+    <td><a href="Gestion_A" style="color: white;">Mis à jour</a></td>
+		</tr>
+
+		</table>
+	</div>
+</div>
+</body>
+</html>

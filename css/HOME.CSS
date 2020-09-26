@@ -1,0 +1,134 @@
+body { background-color: #4dffff; }
+.gallery  {
+  margin-right: 20%;
+margin-top: -20%;
+margin-left: 15%;}
+
+.contenu { 
+margin-top: -15%;
+margin-left: 20%;
+margin-right: 20%;
+text-shadow: 2px 2px 5px lightgrey;
+font-family: cursive;
+font-size: 15px;
+font-style: oblique;
+color: grey;
+         }
+
+.jardin {
+  width: 21%;
+  height: 30%;
+  border: 10px solid #ccc;
+  border-color: grey;
+  margin: 25%;
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 20%;
+  border-radius:12px;
+}
+
+.salle {
+	   width: 20%;
+  border: 10px solid #ccc;
+  border-color: grey;
+  margin-top: -250px;
+  margin-left: 40%;
+  margin-bottom: 0%;
+  border-radius:12px;
+}
+
+.desc { 
+  font-family: cursive;
+  margin-left: 16%;
+  border-color: grey;
+  position: center;
+  margin-top: -25%;
+  color: grey;
+  font-size: 25px;
+}
+.desc2 {
+  font-family: cursive;
+  margin-left: 45%;
+  border-color: grey;
+  position: center;
+  margin-top: 0%;
+  color: grey;
+  font-size: 25px;}
+
+.desc3 {
+  font-family: cursive;
+  margin-left: 65%;
+  border-color: #33ff33;
+  position: center;
+  margin-top: 0%;
+  color: grey;
+  font-size: 25px;
+}
+div.Salle {
+	border: 20px solid #ccc;
+  border-color: lightgrey;
+  padding: 10%;
+  width: 53%;
+  margin-left: 20%;
+}
+.ring {
+  width: 20%;
+  border: 10px solid #ccc;
+  border-color: grey;
+  margin-top: -100%;
+  margin-left: 64%;
+  border-radius:12px;
+}
+.hand {
+	border: 10px solid #ccc;
+  border-color: lightgrey;
+  width: 71%;
+  margin-left: 13%;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+footer {
+  margin-left: 25%;
+  margin-top: 40%;
+  width: 400px;
+  height: 50px;
+}
+
+
+
+table {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  width: 500px;
+  background-color: #75a3a3;
+  padding-left: 0%; 
+  width: 57%;
+  font-family: Verdana;
+  font-size:30px;
+  font-color:grey;
+  margin-left: 175px;
+}
+
+tr {
+  display: block;
+  color: white;
+  text-decoration: none;
+  border-color: blue;
+}
+tr{
+  text-align: center;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:hover {
+  background-color: grey;
+  color: lightblue;
+  background-size: 100%;
+}
+footer {padding-left: 250px;
+margin-top: 1%}
