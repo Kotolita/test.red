@@ -46,11 +46,11 @@ border-radius: 25px;
 
 }
 
-div.center {
-	box-shadow: 10px 10px 5px grey;
+div.centre {
+	box-shadow: 10px 10px 10px grey;
 border-radius: 25px;
 margin-bottom: 20px;
-margin-left: 5px;
+background-color: dodgerblue;
 
 }
 
@@ -61,14 +61,15 @@ p {
 	font-family: cursive 
 	}
 .container-fluid  {
-	font-family: "Verdana", serif;
+	font-family: cursive;
 	font-size: 50px;
 	text-align: center;
 	background-color: DodgerBlue ;
-border-radius: 10px;
+border-radius: 50px;
 font-weight: bold;
 color: lightgrey;
 }
+
 #navigation-bar ul {
   border-radius: 4px;
   overflow: hidden;
@@ -93,6 +94,7 @@ color: lightgrey;
 }
 #navigation-bar a:hover {
   color: #e74c3c;
+  border-radius: 50px;
 }
 #navigation-bar a::before {
   content: "";
@@ -104,6 +106,7 @@ color: lightgrey;
   height: 2px;
   background-color: #e74c3c;
 }
+
 #navigation-bar a:hover::before {
   right: 0;
   left: 0;
@@ -112,6 +115,11 @@ color: lightgrey;
 li {
   list-style: none;
 }
+table { 
+border-radius: 12px; }
+p.text { 
+font-color: white; }
+
 </style>
 <body>
 
@@ -171,9 +179,11 @@ GESTION DES ARTICLES
 				</p>
 		</form>
 	</div>
-	<div class="col-md-10">
-		<table class="table-danger" >
+	<div class="col-md-1"></div>
+	<div class="col-md-8 centre">
+		<table class="table table-link" >
 		<tr>
+			<p class="text">
 	<h2><th>ID</th></h2>
     <th>Référence produit</th>
     <th>Nom du produit</th>
@@ -190,11 +200,13 @@ GESTION DES ARTICLES
     <td>Prix</td>
     <td>Quantité</td>
     <td>Date</td>
-    <td><a href="Gestion_A" style="color: white;">Mis à jour</a></td>
+    <td><a href="Gestion_A" style="color: blue;">Mis à jour</a></td>
 		</tr>
-
+ 		</p>
 		</table>
 	</div>
+<div class="col-md-1"></div>
 </div>
+
 </body>
 </html>
