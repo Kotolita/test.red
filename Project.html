@@ -6,16 +6,21 @@
 	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
 </head>
 <style type="text/css">
+<!-- En tête Css Begins -->
+	
+.bg {
+	background-color: white;
+}
 .navigation-bar 
 {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: tomato;
-padding-left: 20%;
+  background-color: SlateBlue;
+padding-left: 30%;
 }
-
+.bg {box-shadow: 5px 10px 8px 10px #888888}
 ul {
   list-style-type: none;
   margin: 0;
@@ -38,9 +43,11 @@ li a:hover {
   border-radius: 50px;
 }
 .user { 
-font-size: 200px; }
+font-size: 200px;
+color: SlateBlue; }
 .contenu {
 	margin-top: 15%;
+
 }
 p { 
 	font-family: Apple Chancery, cursive;
@@ -51,20 +58,74 @@ p {
 .text { color: white;
 	font-family: Snell Roundhand, cursive;
  }
- h1	{ text-align: center; }
+ h1	{ 
+ 	text-align: center;
+ 	 }
+ .btn {
+ 	display: inline-block;
+  border-radius: 4px;
+  background-color: MediumSeaGreen ;
+  border: none;
+  color: tomato;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:30%;
+  margin-left: 35%;
+  color:SlateBlue;
+  font-size: 40px;
+ }
+ .btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contenair { 
+text-align: center;
+font-size: 50px;
+font-style: italic; }
 </style>
 <body>
-	<h1>
-		Html-Css-Bootstrap
+	<!-- En tête begin-->
+	<div class="en_tete">
+		<h1>
+		Mon portfolio
 		</h1>
+	</div>
+	<!-- En tête End-->
+
+	<!-- Grille navigation Begins -->
 <div class="row">
 	<div class="col-md-12 navigation-bar">
 			
 
       <ul>
-      	<li><a href="#"><i class="fa fa-home"></i><span>Commencer un Projet</span></a></li>
-      	<li><a href="#"><i class="fa fa-windows" aria-hidden="true"></i><span>Fenêtre </span></a></li>
-      	<li><a href="#"><i class="fa fa-envelope-open" aria-hidden="true"></i><span>Message</span></a></li>
+      	<li><a href="#"><i class="fa fa-home"></i><span>Accueil</span></a></li>
+      	<li><a href="CV.html"><i class="fa fa-windows" aria-hidden="true"></i><span>Fenêtre </span></a></li>
+      	<li><a href="Message.html"><i class="fa fa-envelope-open" aria-hidden="true"></i><span>Message</span></a></li>
       	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>Réseaux Sociaux</span></a></li>
       	<li><a href="#"><i class="fa fa-rss"></i> <span>Action</span></a></li>
      </ul>
@@ -72,20 +133,23 @@ p {
  	</div>
 		
 </div>
-
-
-<div class="row bg bg-primary">
-	<div class="col-md-12 contenu ">
+<!-- Grille navigation End -->
+<!-- Corps Begin -->
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10 contenu ">
 		<center><i class="fa fa-user user"></i><br><p>
 		Je me présente:<br> 
-	Kotolita de Madagascar</p>
+	Ravo Andriamiarana Rivo</p>
 		</center>
 		<hr class="font">
-
+		<button class="button btn btn-Warning">Touch it</button>
+      <div class="col-md-1"></div>
 	</div>
 </div>
-		
-	
+		<hr>
+<div class="row">
+<div class="col-md-12 contenair">Html-Css-Bootstrap</div></div>
 
 </body>
 </html>
