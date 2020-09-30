@@ -1,0 +1,139 @@
+div .new {
+    display: inline-block;
+    
+  }
+
+.navigation-bar 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #26927F;
+padding-left: 30%;
+}
+
+.bg {
+  box-shadow: 5px 10px 8px 10px #888888
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: dodgerblue;
+  border-radius: 50px;
+}
+
+.user { 
+font-size: 200px;
+color: SlateBlue; 
+}
+
+<!-- Contenu body begins-->
+div .contenu { 
+background-color: #FFFFFF; }
+img { 
+  background-image: linear-gradient ( rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+  height: 100vh;
+}
+h2 { 
+color: grey; }
+p { 
+	font-family: Apple Chancery, cursive;
+	 }
+.font {
+ width:25%;
+}
+.text { color: white;
+	font-family: Snell Roundhand, cursive;
+ }
+ h1	{ 
+ 	text-align: center;
+ 	 }
+ .btn {
+ 	display: inline-block;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius:40%;
+  margin-left: 50%;
+  color:SlateBlue;
+  font-size: 40px;
+ }
+ .btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.contenair { 
+text-align: center;
+font-size: 50px;
+font-style: italic;
+color: white; }
+
+div .footer { 
+  padding-top: 50px;
+  padding-bottom: 50px;
+background-size: 200px;
+background-color: #26927F;
+}
+.list-inline a {
+  font-size: 45px;
+  color:grey;
+
+}
+.list-inline a:hover {
+  font-size: 80px;
+  color: white;
+
+}
+.class { 
+margin-top: 50px;
+margin-bottom: 50px;
+box-sizing: inherit;
+ }
+.fa-vcard , .fa-check-square-o , .fa-download { 
+  font-size: 50px;
+  color : #00C4CC;
+   }
+ div .class p { 
+ color: #0F0F0F;
+ font-family: Times New Roman;
+ font-size: 17px; }
