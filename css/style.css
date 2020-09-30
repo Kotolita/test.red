@@ -9,13 +9,12 @@ div .new {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #26927F;
-padding-left: 30%;
+  background-image: linear-gradient(to right ,SlateBlue, #26927F,dodgerblue);
+padding-left: 20%;
+font-size: 25px;
+font-family: calibri corps ;
 }
 
-.bg {
-  box-shadow: 5px 10px 8px 10px #888888
-}
 
 ul {
   list-style-type: none;
@@ -39,15 +38,14 @@ li a:hover {
   border-radius: 50px;
 }
 
+img { margin-left: 10%;
+margin-top: 20px; }
 .user { 
 font-size: 200px;
 color: SlateBlue; 
 }
 
 <!-- Contenu body begins-->
-div .contenu { 
-background-color: #FFFFFF; 
-height: 50%;}
 
 h2 { 
 color: grey; }
@@ -63,19 +61,7 @@ p {
  h1	{ 
  	text-align: center;
  	 }
- .btn {
- 	display: inline-block;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  border-radius:40%;
-  margin-left: 50%;
-  color:SlateBlue;
-  font-size: 40px;
- }
+ 
  .btn span {
   cursor: pointer;
   display: inline-block;
@@ -131,7 +117,29 @@ box-sizing: inherit;
   font-size: 50px;
   color : #00C4CC;
    }
+   .btn-success, .btn-primary ,.btn-info { 
+   font-size: 150%;
+   border-radius: 25%;
+   margin-top: 15%; }
+
+   .btn-primary { 
+    margin-top: 15%;
+    }
  div .class p { 
  color: #0F0F0F;
  font-family: Times New Roman;
  font-size: 17px; }
+ h2 { 
+ text-align: center;
+ font-family: Calibri;  }
+ .panel { 
+  
+  background-image: linear-gradient(to right ,SlateBlue, #26927F,dodgerblue) }
+h1 { 
+  font-family: Calibri Corps;
+  text-align: center;
+ }
+ .panel-body { 
+  font-family: calibri;
+ color: white;
+  }
