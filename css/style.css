@@ -46,11 +46,9 @@ color: SlateBlue;
 
 <!-- Contenu body begins-->
 div .contenu { 
-background-color: #FFFFFF; }
-img { 
-  background-image: linear-gradient ( rgba(0,0,0,0.5),rgba(0,0,0,0.5))
-  height: 100vh;
-}
+background-color: #FFFFFF; 
+height: 50%;}
+
 h2 { 
 color: grey; }
 p { 
