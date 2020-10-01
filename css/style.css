@@ -9,8 +9,11 @@ div .new {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #26927F;
 padding-left: 30%;
+background-image: linear-gradient(to right, #26927F , SlateBlue,#26927F);
+font-family: Times new romans ;
+font-size: 20px;
+
 }
 
 .bg {
@@ -64,17 +67,38 @@ p {
  	text-align: center;
  	 }
  .btn {
- 	display: inline-block;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  border-radius:40%;
-  margin-left: 50%;
-  color:SlateBlue;
-  font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-wrapper{
+    position: fixed;
+    top: calc(50% - 22px);
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: rgb(0, 240, 168);
+    height: 45px;
+    line-height: 42px;
+    padding: 0 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(40, 45, 50);
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.2, 3, .4, 1);
+    user-select: none;
  }
  .btn span {
   cursor: pointer;
@@ -135,3 +159,14 @@ box-sizing: inherit;
  color: #0F0F0F;
  font-family: Times New Roman;
  font-size: 17px; }
+ img 
+ { 
+margin-left: 15%;
+margin-top: 25px;
+  }
+.panel { 
+  background-image: linear-gradient(to right, #26927F , SlateBlue,#26927F);
+
+ }
+ .panel { font-family: Calibri Corps; }
+ h2,h4 { text-align:center; }
